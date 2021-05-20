@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.nav {
+  width: 1024px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+}
+
+.nav-list {
+  text-align: end;
+  list-style-type: none;
+  font-size: 16px;
+  color: #fafafa;
+  margin: auto 30px;
+}
+
+.portfolio {
+  background-image: url(img/mv.png);
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  color: #fafafa;
+  margin: 0 auto;
+}
+
+.po-text1 {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.po-text2 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.portfolio-box {
+  background-color: #eceff1;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-text {
+  width: 920px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  padding-top: 90px;
+}
+.title {
+  display: inline-block;
+  position: relative;
+  font-size: 32px;
+  color: #000000;
+}
+.title:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #ec715f;
+}
+
+.main-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.box1 {
+  width: 920px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  width: 920px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.image1 {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image2 {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image3 {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
+.image4 {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image5 {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image6 {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
+.feature {
+  width: 100%;
+  height: auto;
+}
+
+.box3 {
+  width: 980px;
+  height: auto;
+  display: flex;
+  margin: 0 auto 90px;
+}
+
+.st {
+  width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+.size {
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.st:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+
+.st-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+  background-color: #eceff1;
+}
+
+.profile-box {
+  width: 1024px;
+  margin: auto;
+  padding-bottom: 90px;
+}
+
+.box4 {
+  display: flex;
+  margin: 0 auto 90px;
+}
+
+.profile-image {
+  width: 512px;
+}
+
+.image7 {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.profile-text {
+  width: 512px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.text1 {
+  font-size: 16px;
+  color: #000000;
+}
+
+.text1:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.contact{
+  width:100%
+  height:auto;
+}
+
+.contact-box{
+  width:800px;
+  margin:0 auto 90px;
+}
+
+.box5{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-name{
+  width:400px;
+ 
+}
+
+h2{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sns{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sns-tag{
+  display: flex;
+  justify-content: center;
+}
+
+.snsi{
+  font-size: 50px;
+}
+
+.snsi:nth-child(2){
+  margin:0 20px;
+}
+
+footer{
+  width:100%;
+  height:60px;
+  background-color: #ec715f;
+}
+
+.footer-text{
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
+}

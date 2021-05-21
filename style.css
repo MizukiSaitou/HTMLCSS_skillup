@@ -17,6 +17,10 @@ header {
   display: flex;
 }
 
+li:first-child{
+  margin-right: auto;
+}
+
 .nav-list {
   text-align: end;
   list-style-type: none;
@@ -32,6 +36,7 @@ header {
   height: 650px;
   color: #fafafa;
   margin: 0 auto;
+  text-align: center;
 }
 
 .po-text1 {
@@ -59,12 +64,11 @@ header {
 .title {
   text-align: center;
   padding-top: 90px;
-}
-.title {
   display: inline-block;
   position: relative;
   font-size: 32px;
   color: #000000;
+  margin-bottom: 1em;
 }
 .title:before {
   content: "";
@@ -295,4 +299,5 @@ footer{
   font-size: 16px;
   color: #fafafa;
   text-align: center;
+  padding-top: 20px;
 }

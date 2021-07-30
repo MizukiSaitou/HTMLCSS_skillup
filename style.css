@@ -10,15 +10,20 @@ header {
   background-color: #ec715f;
 }
 
-.nav {
+.nav-container{
   width: 1024px;
   height: 70px;
-  margin: auto;
+  margin:auto;
   display: flex;
 }
 
-li:first-child{
-  margin-right: auto;
+.nav-image{
+  height:70px;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
 }
 
 .nav-list {
@@ -262,7 +267,7 @@ h3 {
 
 .contact-name{
   width:400px;
- 
+  text-align: center;
 }
 
 h2{
@@ -272,8 +277,7 @@ h2{
 
 .sns{
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .sns-tag{

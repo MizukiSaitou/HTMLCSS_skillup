@@ -266,6 +266,20 @@ h3 {
   text-align: center;
 }
 
+.address {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.phone-number {
+  margin-top: 5px;
+}
+
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
 .icon {
   display: flex;
   justify-content: center;

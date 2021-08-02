@@ -10,6 +10,10 @@ header {
   background-color: #ec715f;
 }
 
+/* h1{
+  
+} */
+
 nav {
   width: 1024px;
   height: 70px;
@@ -70,6 +74,10 @@ ul {
   font-size: 32px;
   color: #000000;
   text-align: center;
+  border-bottom: 2px solid #ec715f;
+  padding-bottom: 8px;
+  /* display:inline; */
+  line-height: 2;
 }
 
 .sub-text {
